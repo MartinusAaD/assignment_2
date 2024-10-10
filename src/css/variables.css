@@ -1,7 +1,7 @@
 :root {
     --background-color: white;
     --foreground-color: grey;
-    --primary-color: blue;
+    --primary-color: rgb(144, 196, 255);
     --font-color: white;
     --box-shadow: black;
     --border-raidus: 1rem;
