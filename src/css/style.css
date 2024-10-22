@@ -1,0 +1,31 @@
+.player-cards {
+    padding-top: var(--padding-small);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.player-card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: var(--border-raidus);
+    width: 14rem;
+    padding: var(--padding-small);
+}
+
+.player-card__image {
+    width: 100%;
+}
+
+ul {
+    width: 100%;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+}
+
