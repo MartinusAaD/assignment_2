@@ -1,24 +1,61 @@
+@font-face {
+    font-family: Rubik;
+    src: url(../assets/fonts/Rubik-Regular.ttf);
+}
+
+* {
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+a:hover {
+    color: rgb(228, 228, 228);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header {
+    padding: var(--padding-small);
+}
+
 .player-cards {
+    width: 100%;
     padding-top: var(--padding-small);
     display: grid;
-    justify-content: center;
-    align-content: center;
-    gap: 5rem;
+    justify-items: center;
+    padding: 1rem 6rem;
+    gap: 4rem;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .player-card {
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
     border-radius: var(--border-raidus);
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.418);
     width: 14rem;
-    padding: var(--padding-small);
+    padding: var(--padding-xs);
 }
 
 .player-card__image {
     width: 100%;
+    border-radius: var(--border-raidus);
 }
+
+h2 {
+    padding: var(--padding-xs) 0;
+}
+
+
 
 ul {
     width: 100%;
@@ -27,5 +64,14 @@ ul {
 li {
     display: flex;
     justify-content: space-between;
+    padding-bottom: var(--padding-xs);
+}
+
+
+@media screen and (max-width: 768px){
+    .player-cards {
+        padding: 1rem 4rem;
+
+    }
 }
 

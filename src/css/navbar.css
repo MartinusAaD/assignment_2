@@ -2,21 +2,22 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 10rem;
-    height: 6rem;
     background-color: var(--primary-color);
     color: var(--font-color);
+    padding: var(--padding-xs);
 }
 
 .navbar__team-name {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    text-align: center;
+    gap: var(--padding-small);
 }
 
 .navbar__logo {
-    width: 12%;
+    max-width: 80px;
+    padding: var(--padding-xs);
 }
 
 .navbar__heading {
@@ -38,5 +39,10 @@
 
 .navbar__links {
     display: flex;
-    gap: 5rem;
+
+}
+
+.navbar__links-link {
+    padding: var(--padding-xs);
+    margin: 0 var(--padding-medium);
 }
