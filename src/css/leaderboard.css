@@ -1,0 +1,45 @@
+.leaderboard {
+    width: 70%;
+    text-align: left;
+}
+
+ol {
+    width: 100%;
+}
+
+li {
+    text-align: left;
+    padding: var(--padding-medium);
+    border-bottom: 2px solid black;
+    border-radius: var(--border-radius);
+    background-color: var(--foreground-color);
+}
+
+li > p {
+    padding: 0 var(--padding-small);
+}
+
+.leaderboard__row:hover {
+    background-color: #ededed;
+}
+
+.leaderboard__title-row {
+    background-color: black;
+    color: var(--font-color);
+    padding: var(--padding-small) var(--padding-medium);
+}
+
+
+.leaderboard__rank {
+    width: 30%;
+}
+
+.leaderboard__team {
+    width: 50%;
+}
+
+.leaderboard__points {
+    text-align: left;
+    width: 20%;
+}
+

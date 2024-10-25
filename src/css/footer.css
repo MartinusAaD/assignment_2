@@ -8,6 +8,10 @@ footer {
     margin-top: var(--padding-large);
 }
 
+.footer-paragraph {
+    padding: var(--padding-medium);
+}
+
 .footer__link {
     border-bottom: 1px solid var(--font-color);
 }
