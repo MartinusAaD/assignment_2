@@ -1,73 +1,72 @@
 .navbar {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: var(--primary-color);
-    color: var(--font-color);
-    padding: var(--padding-xs);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: var(--font-color);
+  padding: var(--padding-xs);
 }
 
 .navbar__team-name {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: var(--padding-small);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: var(--padding-small);
 }
 
 .navbar__logo {
-    max-width: 80px;
-    padding: var(--padding-xs);
+  max-width: 80px;
+  padding: var(--padding-xs);
 }
 
 .navbar__heading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .navbar__heading-title {
-    font-size: xx-large;
-    letter-spacing: 0.5rem;
+  font-size: xx-large;
+  letter-spacing: 0.5rem;
 }
 
 .navbar__heading-under-title {
-    font-size: medium;
-    letter-spacing: 0.2rem;
+  font-size: medium;
+  letter-spacing: 0.2rem;
 }
 
 .navbar__links {
-    display: flex;
+  display: flex;
 }
 
 .navbar__links-link {
-     margin: 0 var(--padding-medium);
-     border-bottom: 2px solid transparent;
+  margin: 0 var(--padding-medium);
+  border-bottom: 2px solid transparent;
 }
 
-.navbar__links-link:hover{
-    border-bottom: 2px solid var(--font-color);
+.navbar__links-link:hover {
+  border-bottom: 2px solid var(--font-color);
 }
 
 .navbar__menu {
-    background-color: transparent;
-    border: none;
-    display: none;
+  background-color: transparent;
+  border: none;
+  display: none;
 }
 
-
-@media screen and (max-width: 768px){
-    .navbar__links-link {
-        display: none;
-    }
-    .navbar__menu {
-        display: block;
-    }
+@media screen and (max-width: 768px) {
+  .navbar__links-link {
+    display: none;
+  }
+  .navbar__menu {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 576px) {
-    .navbar__logo {
-        display: none;
-    }
+  .navbar__logo {
+    display: none;
+  }
 }

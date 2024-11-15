@@ -1,17 +1,17 @@
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 7rem;
-    background-color: var(--primary-color);
-    color: var(--font-color);
-    margin-top: var(--padding-xl);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+  background-color: var(--primary-color);
+  color: var(--font-color);
+  margin-top: var(--padding-xl);
 }
 
 .footer-paragraph {
-    padding: var(--padding-medium);
+  padding: var(--padding-medium);
 }
 
 .footer__link {
-    border-bottom: 1px solid var(--font-color);
+  border-bottom: 1px solid var(--font-color);
 }

@@ -1,14 +1,16 @@
 :root {
-    /* Colors */
-    --background-color: #f5f5f5;
-    --foreground-color: #ffffff;
-    --primary-color: #2476d3;
-    --font-color: white;
-    --box-shadow: black;
-    --border-radius: 1rem;
-    --padding-xs: 0.5rem;
-    --padding-small: 1rem;
-    --padding-medium: 2rem;
-    --padding-large: 3rem;
-    --padding-xl: 4rem;
+  /* Colors */
+  --background-color: #f5f5f5;
+  --foreground-color: #ffffff;
+  --primary-color: #2476d3;
+  --font-color: white;
+  --box-shadow: black;
+  --border-radius: 1rem;
+
+  /* Spacing */
+  --padding-xs: 0.5rem;
+  --padding-small: 1rem;
+  --padding-medium: 2rem;
+  --padding-large: 3rem;
+  --padding-xl: 4rem;
 }

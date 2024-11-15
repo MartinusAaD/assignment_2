@@ -1,62 +1,57 @@
 .leaderboard {
-    width: 70%;
-    text-align: left;
+  width: 70%;
+  text-align: left;
 }
 
 ol {
-    width: 100%;
+  width: 100%;
 }
 
 li {
-    text-align: left;
-    padding: var(--padding-medium);
-    border-bottom: 2px solid black;
-    border-radius: var(--border-radius);
-    background-color: var(--foreground-color);
+  text-align: left;
+  padding: var(--padding-medium);
+  border-bottom: 2px solid black;
+  border-radius: var(--border-radius);
+  background-color: var(--foreground-color);
 }
 
-
 .leaderboard__row:hover {
-    background-color: #ededed;
+  background-color: #ededed;
 }
 
 .leaderboard__title-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: var(--padding-small);
-    background-color: black;
-    color: var(--font-color);
-    padding-top: var(--padding-small);
-    padding-bottom: var(--padding-small);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--padding-small);
+  background-color: black;
+  color: var(--font-color);
+  padding-top: var(--padding-small);
+  padding-bottom: var(--padding-small);
 }
 
 .leaderboard__row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: var(--padding-small)
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--padding-small);
 }
 
-
 .leaderboard__rank {
-    width: 30%;
+  width: 30%;
 }
 
 .leaderboard__team {
-    width: 50%;
-    
+  width: 50%;
 }
 
 .leaderboard__points {
-    padding-left: var(--padding-medium);
-    width: 20%;
-
+  padding-left: var(--padding-medium);
+  width: 20%;
 }
 
-
 @media screen and (max-width: 576px) {
-    .leaderboard__points {
-        padding: 0;
-    }
+  .leaderboard__points {
+    padding: 0;
+  }
 }
