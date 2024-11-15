@@ -1,89 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/variables.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/leaderboard.css" />
+    <link
+      rel="icon"
+      href="../assets/favicon/favicon.ico"
+      sizes="16x16"
+      type="image/x-icon"
+    />
+    <title>Førde Volleyball Club - Leaderboard</title>
+  </head>
 
-    <head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar__team-name">
+          <img
+            class="navbar__logo"
+            src="../assets/images/team_logo.png"
+            alt="Image of team logo"
+          />
+          <h1 class="navbar__heading">
+            <p class="navbar__heading-title">FØRDE</p>
+            <p class="navbar__heading-under-title">VOLLEYBALL CLUB</p>
+          </h1>
+        </div>
 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../css/reset.css">
-        <link rel="stylesheet" href="../css/variables.css">
-        <link rel="stylesheet" href="../css/navbar.css">
-        <link rel="stylesheet" href="../css/footer.css">
-        <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="../css/leaderboard.css">
-        <title>Førde Volleyball Club - Leaderboard</title>
+        <div class="navbar__links">
+          <a href="../pages/leaderboard.html" class="navbar__links-link"
+            >LEADERBOARD</a
+          >
+          <a href="../index.html" class="navbar__links-link">ABOUT TEAM</a>
+          <button class="navbar__menu">
+            <img
+              src="../assets/icons/hamburger_menu.svg"
+              alt="Image of hamburger menu"
+            />
+          </button>
+        </div>
+      </nav>
+    </header>
 
-    </head>
+    <main>
+      <h1 class="main-header">Leaderboard</h1>
 
-    <body>
+      <div class="leaderboard">
+        <ol>
+          <li class="leaderboard__title-row">
+            <p class="leaderboard__rank">Rank</p>
+            <p class="leaderboard__team">Team</p>
+            <p class="leaderboard__points">Points</p>
+          </li>
+          <li class="leaderboard__row">
+            <p class="leaderboard__rank">1</p>
+            <p class="leaderboard__team">Førde Volleyball Club</p>
+            <p class="leaderboard__points">???</p>
+          </li>
+          <li class="leaderboard__row">
+            <p class="leaderboard__rank">2</p>
+            <p class="leaderboard__team">Oslo Volleyball Club</p>
+            <p class="leaderboard__points">???</p>
+          </li>
+          <li class="leaderboard__row">
+            <p class="leaderboard__rank">3</p>
+            <p class="leaderboard__team">Bergen Volleyball Club</p>
+            <p class="leaderboard__points">???</p>
+          </li>
+          <li class="leaderboard__row">
+            <p class="leaderboard__rank">4</p>
+            <p class="leaderboard__team">Trondheim Volleyball Club</p>
+            <p class="leaderboard__points">???</p>
+          </li>
+          <li class="leaderboard__row">
+            <p class="leaderboard__rank">5</p>
+            <p class="leaderboard__team">Kristiansand Volleyball Club</p>
+            <p class="leaderboard__points">???</p>
+          </li>
+        </ol>
+      </div>
+    </main>
 
-        <header>
-
-            <nav class="navbar">
-                <div class="navbar__team-name">
-                    <img class="navbar__logo" src="../assets/images/team_logo.png" alt="Image of team logo">
-                    <h1 class="navbar__heading">
-                        <p class="navbar__heading-title">FØRDE</p>
-                        <p class="navbar__heading-under-title">VOLLEYBALL CLUB</p>
-                    </h1>
-                </div>
-                
-                <div class="navbar__links">
-                    <a href="./leaderboard.html" class="navbar__links-link">LEADERBOARD</a>
-                    <a href="../index.html" class="navbar__links-link">ABOUT TEAM</a>
-                </div>
-            </nav>
-    
-        </header>
-
-        <main>
-            <h1 class="main-header">Leaderboard</h1>
-
-            <div class="leaderboard">
-                <ol>
-                    <li class="leaderboard__title-row">
-                        <p class="leaderboard__rank">Rank</p>
-                        <p class="leaderboard__team">Team</p>
-                        <p class="leaderboard__points">Points</p>
-                    </li>
-                    <li class="leaderboard__row">
-                        <p class="leaderboard__rank">1</p>
-                        <p class="leaderboard__team">Førde Volleyball Club</p>
-                        <p class="leaderboard__points">???</p>
-                    </li>
-                    <li class="leaderboard__row">
-                        <p class="leaderboard__rank">2</p>
-                        <p class="leaderboard__team">Oslo Volleyball Club</p>
-                        <p class="leaderboard__points">???</p>
-                    </li>
-                    <li class="leaderboard__row">
-                        <p class="leaderboard__rank">3</p>
-                        <p class="leaderboard__team">Bergen Volleyball Club</p>
-                        <p class="leaderboard__points">???</p>
-                    </li>
-                    <li class="leaderboard__row">
-                        <p class="leaderboard__rank">4</p>
-                        <p class="leaderboard__team">Trondheim Volleyball Club</p>
-                        <p class="leaderboard__points">???</p>
-                    </li>
-                    <li class="leaderboard__row">
-                        <p class="leaderboard__rank">5</p>
-                        <p class="leaderboard__team">Kristiansand Volleyball Club</p>
-                        <p class="leaderboard__points">???</p>
-                    </li>
-                </ol>
-            </div>
-
-        </main>
-
-        <footer>
-
-            <p class="footer-paragraph">Information collected from:  
-                <a class="footer__link" href="https://fvbk.no/">https://fvbk.no/</a>
-            </p>
-    
-        </footer>
-        
-    </body>
-
+    <footer>
+      <p class="footer-paragraph">
+        Information collected from:
+        <a class="footer__link" href="https://fvbk.no/">https://fvbk.no/</a>
+      </p>
+    </footer>
+  </body>
 </html>

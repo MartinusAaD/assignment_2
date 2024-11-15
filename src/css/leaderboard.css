@@ -15,18 +15,27 @@ li {
     background-color: var(--foreground-color);
 }
 
-li > p {
-    padding: 0 var(--padding-small);
-}
 
 .leaderboard__row:hover {
     background-color: #ededed;
 }
 
 .leaderboard__title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--padding-small);
     background-color: black;
     color: var(--font-color);
-    padding: var(--padding-small) var(--padding-medium);
+    padding-top: var(--padding-small);
+    padding-bottom: var(--padding-small);
+}
+
+.leaderboard__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--padding-small)
 }
 
 
@@ -36,10 +45,18 @@ li > p {
 
 .leaderboard__team {
     width: 50%;
+    
 }
 
 .leaderboard__points {
-    text-align: left;
+    padding-left: var(--padding-medium);
     width: 20%;
+
 }
 
+
+@media screen and (max-width: 576px) {
+    .leaderboard__points {
+        padding: 0;
+    }
+}

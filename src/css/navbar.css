@@ -39,10 +39,35 @@
 
 .navbar__links {
     display: flex;
-
 }
 
 .navbar__links-link {
-    padding: var(--padding-xs);
-    margin: 0 var(--padding-medium);
+     margin: 0 var(--padding-medium);
+     border-bottom: 2px solid transparent;
+}
+
+.navbar__links-link:hover{
+    border-bottom: 2px solid var(--font-color);
+}
+
+.navbar__menu {
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+
+
+@media screen and (max-width: 768px){
+    .navbar__links-link {
+        display: none;
+    }
+    .navbar__menu {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .navbar__logo {
+        display: none;
+    }
 }

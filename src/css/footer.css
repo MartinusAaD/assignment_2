@@ -5,7 +5,7 @@ footer {
     height: 7rem;
     background-color: var(--primary-color);
     color: var(--font-color);
-    margin-top: var(--padding-large);
+    margin-top: var(--padding-xl);
 }
 
 .footer-paragraph {

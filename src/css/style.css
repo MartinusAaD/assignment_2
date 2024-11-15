@@ -12,10 +12,6 @@ a {
     color: var(--font-color);
 }
 
-a:hover {
-    color: rgb(228, 228, 228);
-}
-
 main {
     display: flex;
     flex-direction: column;
@@ -73,6 +69,13 @@ li {
     .player-cards {
         padding: 1rem 4rem;
 
+    }
+}
+
+@media screen and (max-width: 600px){
+    .player-cards {
+        gap: ;
+        grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
     }
 }
 

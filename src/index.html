@@ -1,425 +1,495 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/variables.css">
-    <link rel="stylesheet" href="./css/navbar.css">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="icon"
+      href="./assets/favicon/favicon.ico"
+      sizes="16x16"
+      type="image/x-icon"
+    />
     <title>Førde Volleyball Club - Player Cards</title>
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <header>
+      <nav class="navbar">
+        <div class="navbar__team-name">
+          <img
+            class="navbar__logo"
+            src="./assets/images/team_logo.png"
+            alt="Image of team logo"
+          />
+          <h1 class="navbar__heading">
+            <p class="navbar__heading-title">FØRDE</p>
+            <p class="navbar__heading-under-title">VOLLEYBALL CLUB</p>
+          </h1>
+        </div>
 
-        <nav class="navbar">
-            <div class="navbar__team-name">
-                <img class="navbar__logo" src="./assets/images/team_logo.png" alt="Image of team logo">
-                <h1 class="navbar__heading">
-                    <p class="navbar__heading-title">FØRDE</p>
-                    <p class="navbar__heading-under-title">VOLLEYBALL CLUB</p>
-                </h1>
-            </div>
-            
-            <div class="navbar__links">
-                <a href="./pages/leaderboard.html" class="navbar__links-link">LEADERBOARD</a>
-                <a href="./index.html" class="navbar__links-link">ABOUT TEAM</a>
-            </div>
-        </nav>
-
+        <div class="navbar__links">
+          <a href="./pages/leaderboard.html" class="navbar__links-link"
+            >LEADERBOARD</a
+          >
+          <a href="./index.html" class="navbar__links-link">ABOUT TEAM</a>
+          <button class="navbar__menu">
+            <img
+              src="./assets/icons/hamburger_menu.svg"
+              alt="image of hamburger menu"
+            />
+          </button>
+        </div>
+      </nav>
     </header>
 
     <main>
+      <h1 class="main-header">Team Members</h1>
 
-        <h1 class="main-header">Team Members</h1>
-
-        <div class="player-cards">
-            <div class="player-card">
-                <img src="./assets/images/player_1.jpg" alt="Image of Jonah Utvik" class="player-card__image">
-                <h2>Jonah Utvik</h2>
-                <ul>
-                    <li>
-                        <p class="player-card__first-p">Age:</p>
-                        <p class="player-card__second-p">20</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Player Number:</p>
-                        <p class="player-card__second-p">1</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Height:</p>
-                        <p class="player-card__second-p">190cm</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Position: </p>
-                        <p class="player-card__second-p">Setter</p>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="player-card">
-                <img src="./assets/images/player_2.jpg" alt="Image of Kristian Bjørvik Undheim" class="player-card__image">
-                <h2>Kristian Bjørvik Undheim</h2>
-                <ul>
-                    <li>
-                        <p class="player-card__first-p">Age:</p>
-                        <p class="player-card__second-p">20</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Player Number:</p>
-                        <p class="player-card__second-p">2</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Height:</p>
-                        <p class="player-card__second-p">186cm</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Position: </p>
-                        <p class="player-card__second-p">Setter</p>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="player-card">
-                <img src="./assets/images/player_3.jpg" alt="Image of Mikal Kalstad" class="player-card__image">
-                <h2>Mikal Kalstad</h2>
-                <ul>
-                    <li>
-                        <p class="player-card__first-p">Age:</p>
-                        <p class="player-card__second-p">18</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Player Number:</p>
-                        <p class="player-card__second-p">3</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Height:</p>
-                        <p class="player-card__second-p">194cm</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Position: </p>
-                        <p class="player-card__second-p">Right Side Hitter</p>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="player-card">
-                <img src="./assets/images/player_4.jpg" alt="Image of Eirik Steen Molland" class="player-card__image">
-                <h2>Eirik Steen Molland</h2>
-                <ul>
-                    <li>
-                        <p class="player-card__first-p">Age:</p>
-                        <p class="player-card__second-p">22</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Player Number:</p>
-                        <p class="player-card__second-p">4</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Height:</p>
-                        <p class="player-card__second-p">186cm</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Position: </p>
-                        <p class="player-card__second-p">Right Side Hitter</p>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="player-card">
-                <img src="./assets/images/player_5.jpg" alt="Image of Tor Odin Bjørndal Milde" class="player-card__image">
-                <h2>Tor Odin Bjørndal Milde</h2>
-                <ul>
-                    <li>
-                        <p class="player-card__first-p">Age:</p>
-                        <p class="player-card__second-p">20</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Player Number:</p>
-                        <p class="player-card__second-p">5</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Height:</p>
-                        <p class="player-card__second-p">184cm</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Position: </p>
-                        <p class="player-card__second-p">Setter</p>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="player-card">
-                <img src="./assets/images/player_6.jpg" alt="Image of Oskar Raftevold" class="player-card__image">
-                <h2>Oskar Raftevold</h2>
-                <ul>
-                    <li>
-                        <p class="player-card__first-p">Age:</p>
-                        <p class="player-card__second-p">28</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Player Number:</p>
-                        <p class="player-card__second-p">6</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Height:</p>
-                        <p class="player-card__second-p">195cm</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Position: </p>
-                        <p class="player-card__second-p">Opposite</p>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="player-card">
-                <img src="./assets/images/player_7.jpg" alt="Image of Martin Olimstad" class="player-card__image">
-                <h2>Martin Olimstad</h2>
-                <ul>
-                    <li>
-                        <p class="player-card__first-p">Age:</p>
-                        <p class="player-card__second-p">27</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Player Number:</p>
-                        <p class="player-card__second-p">7</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Height:</p>
-                        <p class="player-card__second-p">193cm</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Position: </p>
-                        <p class="player-card__second-p">Right Side Hitter</p>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="player-card">
-                <img src="./assets/images/player_8.jpg" alt="Image of Christian Frøytlog Holberg" class="player-card__image">
-                <h2>Christian Frøytlog Holberg</h2>
-                <ul>
-                    <li>
-                        <p class="player-card__first-p">Age:</p>
-                        <p class="player-card__second-p">20</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Player Number:</p>
-                        <p class="player-card__second-p">8</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Height:</p>
-                        <p class="player-card__second-p">201cm</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Position: </p>
-                        <p class="player-card__second-p">Middle Player</p>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="player-card">
-                <img src="./assets/images/player_9.jpg" alt="Image of Jobjørn Røkenes Myren" class="player-card__image">
-                <h2>Jobjørn Røkenes Myren</h2>
-                <ul>
-                    <li>
-                        <p class="player-card__first-p">Age:</p>
-                        <p class="player-card__second-p">22</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Player Number:</p>
-                        <p class="player-card__second-p">9</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Height:</p>
-                        <p class="player-card__second-p">199cm</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Position: </p>
-                        <p class="player-card__second-p">Middle Player</p>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="player-card">
-                <img src="./assets/images/player_10.jpg" alt="Image of Elias Vie" class="player-card__image">
-                <h2>Elias Vie</h2>
-                <ul>
-                    <li>
-                        <p class="player-card__first-p">Age:</p>
-                        <p class="player-card__second-p">19</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Player Number:</p>
-                        <p class="player-card__second-p">10</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Height:</p>
-                        <p class="player-card__second-p">193cm</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Position: </p>
-                        <p class="player-card__second-p">Middle Player</p>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="player-card">
-                <img src="./assets/images/player_11.jpg" alt="Image of Olav Ingebrigtsen" class="player-card__image">
-                <h2>Olav Ingebrigtsen</h2>
-                <ul>
-                    <li>
-                        <p class="player-card__first-p">Age:</p>
-                        <p class="player-card__second-p">20</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Player Number:</p>
-                        <p class="player-card__second-p">11</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Height:</p>
-                        <p class="player-card__second-p">195cm</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Position: </p>
-                        <p class="player-card__second-p">Diagonal</p>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="player-card">
-                <img src="./assets/images/player_13.jpg" alt="Image of Kacper Wasilewski" class="player-card__image">
-                <h2>Kacper Wasilewski</h2>
-                <ul>
-                    <li>
-                        <p class="player-card__first-p">Age:</p>
-                        <p class="player-card__second-p">26</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Player Number:</p>
-                        <p class="player-card__second-p">13</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Height:</p>
-                        <p class="player-card__second-p">190cm</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Position: </p>
-                        <p class="player-card__second-p">Libero</p>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="player-card">
-                <img src="./assets/images/player_14.jpg" alt="Image of Christopher Eliassen Knechta" class="player-card__image">
-                <h2>Christopher Eliassen Knechta</h2>
-                <ul>
-                    <li>
-                        <p class="player-card__first-p">Age:</p>
-                        <p class="player-card__second-p">23</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Player Number:</p>
-                        <p class="player-card__second-p">14</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Height:</p>
-                        <p class="player-card__second-p">202cm</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Position: </p>
-                        <p class="player-card__second-p">Middle Player</p>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="player-card">
-                <img src="./assets/images/player_15.jpg" alt="Image of David Garcia Walaker" class="player-card__image">
-                <h2>David Garcia Walaker</h2>
-                <ul>
-                    <li>
-                        <p class="player-card__first-p">Age:</p>
-                        <p class="player-card__second-p">20</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Player Number:</p>
-                        <p class="player-card__second-p">15</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Height:</p>
-                        <p class="player-card__second-p">199cm</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Position: </p>
-                        <p class="player-card__second-p">Diagonal</p>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="player-card">
-                <img src="./assets/images/player_19.jpg" alt="Image of Thorbjørn Fossum Lillesvangstu" class="player-card__image">
-                <h2>Thorbjørn Fossum Lillesvangstu</h2>
-                <ul>
-                    <li>
-                        <p class="player-card__first-p">Age:</p>
-                        <p class="player-card__second-p">18</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Player Number:</p>
-                        <p class="player-card__second-p">19</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Height:</p>
-                        <p class="player-card__second-p">195cm</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Position: </p>
-                        <p class="player-card__second-p">Right Side Hitter</p>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="player-card">
-                <img src="./assets/images/player_21.jpg" alt="Image of Daniel Klopstad" class="player-card__image">
-                <h2>Daniel Klopstad</h2>
-                <ul>
-                    <li>
-                        <p class="player-card__first-p">Age:</p>
-                        <p class="player-card__second-p">18</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Player Number:</p>
-                        <p class="player-card__second-p">21</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Height:</p>
-                        <p class="player-card__second-p">183cm</p>
-                    </li>
-                    <li>
-                        <p class="player-card__first-p">Position: </p>
-                        <p class="player-card__second-p">Libero</p>
-                    </li>
-                </ul>
-            </div>
+      <div class="player-cards">
+        <div class="player-card">
+          <img
+            src="./assets/images/player_1.jpg"
+            alt="Image of Jonah Utvik"
+            class="player-card__image"
+          />
+          <h2>Jonah Utvik</h2>
+          <ul>
+            <li>
+              <p class="player-card__first-p">Age:</p>
+              <p class="player-card__second-p">20</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Player Number:</p>
+              <p class="player-card__second-p">1</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Height:</p>
+              <p class="player-card__second-p">190cm</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Position:</p>
+              <p class="player-card__second-p">Setter</p>
+            </li>
+          </ul>
         </div>
 
+        <div class="player-card">
+          <img
+            src="./assets/images/player_2.jpg"
+            alt="Image of Kristian Bjørvik Undheim"
+            class="player-card__image"
+          />
+          <h2>Kristian Bjørvik Undheim</h2>
+          <ul>
+            <li>
+              <p class="player-card__first-p">Age:</p>
+              <p class="player-card__second-p">20</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Player Number:</p>
+              <p class="player-card__second-p">2</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Height:</p>
+              <p class="player-card__second-p">186cm</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Position:</p>
+              <p class="player-card__second-p">Setter</p>
+            </li>
+          </ul>
+        </div>
 
+        <div class="player-card">
+          <img
+            src="./assets/images/player_3.jpg"
+            alt="Image of Mikal Kalstad"
+            class="player-card__image"
+          />
+          <h2>Mikal Kalstad</h2>
+          <ul>
+            <li>
+              <p class="player-card__first-p">Age:</p>
+              <p class="player-card__second-p">18</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Player Number:</p>
+              <p class="player-card__second-p">3</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Height:</p>
+              <p class="player-card__second-p">194cm</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Position:</p>
+              <p class="player-card__second-p">Right Side Hitter</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="player-card">
+          <img
+            src="./assets/images/player_4.jpg"
+            alt="Image of Eirik Steen Molland"
+            class="player-card__image"
+          />
+          <h2>Eirik Steen Molland</h2>
+          <ul>
+            <li>
+              <p class="player-card__first-p">Age:</p>
+              <p class="player-card__second-p">22</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Player Number:</p>
+              <p class="player-card__second-p">4</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Height:</p>
+              <p class="player-card__second-p">186cm</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Position:</p>
+              <p class="player-card__second-p">Right Side Hitter</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="player-card">
+          <img
+            src="./assets/images/player_5.jpg"
+            alt="Image of Tor Odin Bjørndal Milde"
+            class="player-card__image"
+          />
+          <h2>Tor Odin Bjørndal Milde</h2>
+          <ul>
+            <li>
+              <p class="player-card__first-p">Age:</p>
+              <p class="player-card__second-p">20</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Player Number:</p>
+              <p class="player-card__second-p">5</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Height:</p>
+              <p class="player-card__second-p">184cm</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Position:</p>
+              <p class="player-card__second-p">Setter</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="player-card">
+          <img
+            src="./assets/images/player_6.jpg"
+            alt="Image of Oskar Raftevold"
+            class="player-card__image"
+          />
+          <h2>Oskar Raftevold</h2>
+          <ul>
+            <li>
+              <p class="player-card__first-p">Age:</p>
+              <p class="player-card__second-p">28</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Player Number:</p>
+              <p class="player-card__second-p">6</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Height:</p>
+              <p class="player-card__second-p">195cm</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Position:</p>
+              <p class="player-card__second-p">Opposite</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="player-card">
+          <img
+            src="./assets/images/player_7.jpg"
+            alt="Image of Martin Olimstad"
+            class="player-card__image"
+          />
+          <h2>Martin Olimstad</h2>
+          <ul>
+            <li>
+              <p class="player-card__first-p">Age:</p>
+              <p class="player-card__second-p">27</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Player Number:</p>
+              <p class="player-card__second-p">7</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Height:</p>
+              <p class="player-card__second-p">193cm</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Position:</p>
+              <p class="player-card__second-p">Right Side Hitter</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="player-card">
+          <img
+            src="./assets/images/player_8.jpg"
+            alt="Image of Christian Frøytlog Holberg"
+            class="player-card__image"
+          />
+          <h2>Christian Frøytlog Holberg</h2>
+          <ul>
+            <li>
+              <p class="player-card__first-p">Age:</p>
+              <p class="player-card__second-p">20</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Player Number:</p>
+              <p class="player-card__second-p">8</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Height:</p>
+              <p class="player-card__second-p">201cm</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Position:</p>
+              <p class="player-card__second-p">Middle Player</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="player-card">
+          <img
+            src="./assets/images/player_9.jpg"
+            alt="Image of Jobjørn Røkenes Myren"
+            class="player-card__image"
+          />
+          <h2>Jobjørn Røkenes Myren</h2>
+          <ul>
+            <li>
+              <p class="player-card__first-p">Age:</p>
+              <p class="player-card__second-p">22</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Player Number:</p>
+              <p class="player-card__second-p">9</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Height:</p>
+              <p class="player-card__second-p">199cm</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Position:</p>
+              <p class="player-card__second-p">Middle Player</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="player-card">
+          <img
+            src="./assets/images/player_10.jpg"
+            alt="Image of Elias Vie"
+            class="player-card__image"
+          />
+          <h2>Elias Vie</h2>
+          <ul>
+            <li>
+              <p class="player-card__first-p">Age:</p>
+              <p class="player-card__second-p">19</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Player Number:</p>
+              <p class="player-card__second-p">10</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Height:</p>
+              <p class="player-card__second-p">193cm</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Position:</p>
+              <p class="player-card__second-p">Middle Player</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="player-card">
+          <img
+            src="./assets/images/player_11.jpg"
+            alt="Image of Olav Ingebrigtsen"
+            class="player-card__image"
+          />
+          <h2>Olav Ingebrigtsen</h2>
+          <ul>
+            <li>
+              <p class="player-card__first-p">Age:</p>
+              <p class="player-card__second-p">20</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Player Number:</p>
+              <p class="player-card__second-p">11</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Height:</p>
+              <p class="player-card__second-p">195cm</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Position:</p>
+              <p class="player-card__second-p">Diagonal</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="player-card">
+          <img
+            src="./assets/images/player_13.jpg"
+            alt="Image of Kacper Wasilewski"
+            class="player-card__image"
+          />
+          <h2>Kacper Wasilewski</h2>
+          <ul>
+            <li>
+              <p class="player-card__first-p">Age:</p>
+              <p class="player-card__second-p">26</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Player Number:</p>
+              <p class="player-card__second-p">13</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Height:</p>
+              <p class="player-card__second-p">190cm</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Position:</p>
+              <p class="player-card__second-p">Libero</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="player-card">
+          <img
+            src="./assets/images/player_14.jpg"
+            alt="Image of Christopher Eliassen Knechta"
+            class="player-card__image"
+          />
+          <h2>Christopher Eliassen Knechta</h2>
+          <ul>
+            <li>
+              <p class="player-card__first-p">Age:</p>
+              <p class="player-card__second-p">23</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Player Number:</p>
+              <p class="player-card__second-p">14</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Height:</p>
+              <p class="player-card__second-p">202cm</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Position:</p>
+              <p class="player-card__second-p">Middle Player</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="player-card">
+          <img
+            src="./assets/images/player_15.jpg"
+            alt="Image of David Garcia Walaker"
+            class="player-card__image"
+          />
+          <h2>David Garcia Walaker</h2>
+          <ul>
+            <li>
+              <p class="player-card__first-p">Age:</p>
+              <p class="player-card__second-p">20</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Player Number:</p>
+              <p class="player-card__second-p">15</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Height:</p>
+              <p class="player-card__second-p">199cm</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Position:</p>
+              <p class="player-card__second-p">Diagonal</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="player-card">
+          <img
+            src="./assets/images/player_19.jpg"
+            alt="Image of Thorbjørn Fossum Lillesvangstu"
+            class="player-card__image"
+          />
+          <h2>Thorbjørn Fossum Lillesvangstu</h2>
+          <ul>
+            <li>
+              <p class="player-card__first-p">Age:</p>
+              <p class="player-card__second-p">18</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Player Number:</p>
+              <p class="player-card__second-p">19</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Height:</p>
+              <p class="player-card__second-p">195cm</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Position:</p>
+              <p class="player-card__second-p">Right Side Hitter</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="player-card">
+          <img
+            src="./assets/images/player_21.jpg"
+            alt="Image of Daniel Klopstad"
+            class="player-card__image"
+          />
+          <h2>Daniel Klopstad</h2>
+          <ul>
+            <li>
+              <p class="player-card__first-p">Age:</p>
+              <p class="player-card__second-p">18</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Player Number:</p>
+              <p class="player-card__second-p">21</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Height:</p>
+              <p class="player-card__second-p">183cm</p>
+            </li>
+            <li>
+              <p class="player-card__first-p">Position:</p>
+              <p class="player-card__second-p">Libero</p>
+            </li>
+          </ul>
+        </div>
+      </div>
     </main>
 
     <footer>
-
-        <p class="footer-paragraph">Information collected from:  
-            <a class="footer__link" href="https://fvbk.no/">https://fvbk.no/</a>
-        </p>
-
+      <p class="footer-paragraph">
+        Information collected from:
+        <a class="footer__link" href="https://fvbk.no/">https://fvbk.no/</a>
+      </p>
     </footer>
-    
-</body>
-
+  </body>
 </html>
