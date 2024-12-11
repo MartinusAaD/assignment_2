@@ -23,6 +23,7 @@ main {
   padding: var(--padding-medium);
 }
 
+/* Player Card Styling */
 .player-cards {
   width: 100%;
   padding-top: var(--padding-small);
@@ -62,6 +63,7 @@ li {
   padding-bottom: var(--padding-xs);
 }
 
+/* Media Screen Queries */
 @media screen and (max-width: 768px) {
   .player-cards {
     padding: 1rem 4rem;
@@ -70,7 +72,6 @@ li {
 
 @media screen and (max-width: 600px) {
   .player-cards {
-    gap: ;
     grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
   }
 }
